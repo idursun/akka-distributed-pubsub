@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidecar", "Sidecar\Sidecar.csproj", "{8DD45D6D-4CEC-466D-9931-B06A5C882D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidecar.ConsoleDemo", "Sidecar.ConsoleDemo\Sidecar.ConsoleDemo.csproj", "{8930C0D5-3D08-48F3-A06B-B4A21EFA873C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidecar.ConsumerDemo", "Sidecar.ConsumerDemo\Sidecar.ConsumerDemo.csproj", "{8930C0D5-3D08-48F3-A06B-B4A21EFA873C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidecar.ProducerDemo", "Sidecar.ProducerDemo\Sidecar.ProducerDemo.csproj", "{C7F518D7-45CC-478E-AA7D-467BB459BABE}"
 EndProject

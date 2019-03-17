@@ -1,7 +1,7 @@
 ﻿using System;
 using Shared.Events;
 
-namespace Sidecar.ConsoleDemo
+namespace Sidecar.ConsumerDemo
 {
     class Program
     {
