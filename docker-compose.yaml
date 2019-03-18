@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  node-seed:
+    image: cluster-demo
+    ports:
+      - "8081:8081"
+    build:
+      context: .
+      dockerfile: Dockerfile
+  node-cluster-monitor:
+    image: cluster-demo
+    depends_on: 
+      - node-seed
+    command: ["./Node.ClusterMonitor/out/Node.ClusterMonitor.dll"]
+  sidecar-consumerdemo:
+    image: cluster-demo
+    depends_on: 
+      - node-seed
+    command: ["./Sidecar.ConsumerDemo/out/Sidecar.ConsumerDemo.dll"]
+  sidecar-producerdemo:
+    image: core-cluster-demo
+    depends_on: 
+      - node-seed
+    command: ["./Sidecar.ProducerDemo/out/Sidecar.ProducerDemo.dll"]
